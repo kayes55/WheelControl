@@ -7,21 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E52BC5752051227D005F1448 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E52BC5742051227D005F1448 /* Info.plist */; };
 		E562DDE1204E059C00D9BD56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562DDE0204E059C00D9BD56 /* AppDelegate.swift */; };
 		E562DDE3204E059C00D9BD56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562DDE2204E059C00D9BD56 /* ViewController.swift */; };
 		E562DDE6204E059C00D9BD56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E562DDE4204E059C00D9BD56 /* Main.storyboard */; };
 		E562DDE8204E059C00D9BD56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E562DDE7204E059C00D9BD56 /* Assets.xcassets */; };
 		E562DDEB204E059C00D9BD56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E562DDE9204E059C00D9BD56 /* LaunchScreen.storyboard */; };
+		E562DDF9204E0EDF00D9BD56 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E562DDF7204E09CD00D9BD56 /* QuartzCore.framework */; };
+		E57C06BF204FBBC200F8BB15 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57C06BE204FBBC200F8BB15 /* Wheel.swift */; };
+		E57C06C1204FC56D00F8BB15 /* WheelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57C06C0204FC56D00F8BB15 /* WheelProtocol.swift */; };
+		E57C06C3204FF08700F8BB15 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57C06C2204FF08700F8BB15 /* Knob.swift */; };
+		E57C06C52050272600F8BB15 /* Sector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57C06C42050272600F8BB15 /* Sector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E52BC5742051227D005F1448 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../.Trash/Info.plist; sourceTree = "<group>"; };
 		E562DDDD204E059C00D9BD56 /* WheelControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheelControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E562DDE0204E059C00D9BD56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E562DDE2204E059C00D9BD56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E562DDE5204E059C00D9BD56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E562DDE7204E059C00D9BD56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E562DDEA204E059C00D9BD56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E562DDEC204E059C00D9BD56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E562DDF7204E09CD00D9BD56 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E57C06BE204FBBC200F8BB15 /* Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
+		E57C06C0204FC56D00F8BB15 /* WheelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelProtocol.swift; sourceTree = "<group>"; };
+		E57C06C2204FF08700F8BB15 /* Knob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
+		E57C06C42050272600F8BB15 /* Sector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E562DDF9204E0EDF00D9BD56 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +51,10 @@
 			isa = PBXGroup;
 			children = (
 				E562DDDF204E059C00D9BD56 /* WheelControl */,
+				E562DDE7204E059C00D9BD56 /* Assets.xcassets */,
+				E52BC5742051227D005F1448 /* Info.plist */,
 				E562DDDE204E059C00D9BD56 /* Products */,
+				E562DDF6204E09CD00D9BD56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,80 @@
 		E562DDDF204E059C00D9BD56 /* WheelControl */ = {
 			isa = PBXGroup;
 			children = (
-				E562DDE0204E059C00D9BD56 /* AppDelegate.swift */,
-				E562DDE2204E059C00D9BD56 /* ViewController.swift */,
-				E562DDE4204E059C00D9BD56 /* Main.storyboard */,
-				E562DDE7204E059C00D9BD56 /* Assets.xcassets */,
-				E562DDE9204E059C00D9BD56 /* LaunchScreen.storyboard */,
-				E562DDEC204E059C00D9BD56 /* Info.plist */,
+				E56C7A8520511DA00031F951 /* Views */,
+				E56C7A8420511D680031F951 /* Supported Files */,
+				E56C7A8320511D4D0031F951 /* ViewController */,
+				E56C7A8220511D340031F951 /* Sector Class */,
+				E56C7A8120511D190031F951 /* Wheel Protocol */,
+				E56C7A8020511CF50031F951 /* Wheel With UIControl */,
+				E56C7A7F20511CCF0031F951 /* Wheel With UIView */,
 			);
 			path = WheelControl;
+			sourceTree = "<group>";
+		};
+		E562DDF6204E09CD00D9BD56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E562DDF7204E09CD00D9BD56 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E56C7A7F20511CCF0031F951 /* Wheel With UIView */ = {
+			isa = PBXGroup;
+			children = (
+				E57C06BE204FBBC200F8BB15 /* Wheel.swift */,
+			);
+			path = "Wheel With UIView";
+			sourceTree = "<group>";
+		};
+		E56C7A8020511CF50031F951 /* Wheel With UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				E57C06C2204FF08700F8BB15 /* Knob.swift */,
+			);
+			path = "Wheel With UIControl";
+			sourceTree = "<group>";
+		};
+		E56C7A8120511D190031F951 /* Wheel Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				E57C06C0204FC56D00F8BB15 /* WheelProtocol.swift */,
+			);
+			path = "Wheel Protocol";
+			sourceTree = "<group>";
+		};
+		E56C7A8220511D340031F951 /* Sector Class */ = {
+			isa = PBXGroup;
+			children = (
+				E57C06C42050272600F8BB15 /* Sector.swift */,
+			);
+			path = "Sector Class";
+			sourceTree = "<group>";
+		};
+		E56C7A8320511D4D0031F951 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E562DDE2204E059C00D9BD56 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E56C7A8420511D680031F951 /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				E562DDE0204E059C00D9BD56 /* AppDelegate.swift */,
+			);
+			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		E56C7A8520511DA00031F951 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E562DDE4204E059C00D9BD56 /* Main.storyboard */,
+				E562DDE9204E059C00D9BD56 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +206,7 @@
 			files = (
 				E562DDEB204E059C00D9BD56 /* LaunchScreen.storyboard in Resources */,
 				E562DDE8204E059C00D9BD56 /* Assets.xcassets in Resources */,
+				E52BC5752051227D005F1448 /* Info.plist in Resources */,
 				E562DDE6204E059C00D9BD56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +218,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E57C06BF204FBBC200F8BB15 /* Wheel.swift in Sources */,
+				E57C06C1204FC56D00F8BB15 /* WheelProtocol.swift in Sources */,
+				E57C06C3204FF08700F8BB15 /* Knob.swift in Sources */,
 				E562DDE3204E059C00D9BD56 /* ViewController.swift in Sources */,
 				E562DDE1204E059C00D9BD56 /* AppDelegate.swift in Sources */,
+				E57C06C52050272600F8BB15 /* Sector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +362,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N29E7P5W3H;
-				INFOPLIST_FILE = WheelControl/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../.Trash/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.binary5.WheelControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,8 +378,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N29E7P5W3H;
-				INFOPLIST_FILE = WheelControl/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../.Trash/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.binary5.WheelControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
