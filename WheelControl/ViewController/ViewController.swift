@@ -45,7 +45,7 @@ class ViewController: UIViewController, WheelProtocol {
         
         
     }
-    
+    //MARK: - Delegate Function
     func wheelDidChange(newValue: String) {
         self.sectorLabel.text = newValue
     }
