@@ -1,7 +1,7 @@
 # WheelControl
 This project is made from Ray Wenderlich's tutorial [How To Create a Rotating Wheel Control with UIKit](https://www.raywenderlich.com/9864/how-to-create-a-rotating-wheel-control-with-uikit).
 Author of this tutorial is [Cesare Rocchi](https://www.raywenderlich.com/u/funkyboy).
-This tutorial was written in Objective-C and Ray's team did not make a newer edition to this tutorial. So I have decided to make
+This tutorial was written in Objective-C and Ray's team did not update it until now. So I have decided to make
 a Swift version of this useful project for learning purpose.
 # Language Used
 ## Swift
