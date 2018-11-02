@@ -42,7 +42,7 @@ class ViewController: UIViewController, WheelProtocol {
  
         */
         
-        let btn = UIButton.init(frame: CGRect(x: 10, y: 200, width: 30, height: 30))
+//        let btn = UIButton.init(frame: CGRect(x: 10, y: 200, width: 30, height: 30))
    
     }
     //MARK: - Delegate Function
