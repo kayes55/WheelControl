@@ -34,6 +34,8 @@ class Knob: UIControl {
         // changing delegate at the end
 //        self.delegate?.wheelDidChange(newValue: "Value is \(String(describing: self.currentSector!))")
         self.delegate?.wheelDidChange(newValue: self.getSectorName(currentSector!))
+        
+        
     }
     
     required init?(coder aDecoder: NSCoder) {

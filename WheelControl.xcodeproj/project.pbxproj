@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E52BC5752051227D005F1448 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E52BC5742051227D005F1448 /* Info.plist */; };
 		E562DDE1204E059C00D9BD56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562DDE0204E059C00D9BD56 /* AppDelegate.swift */; };
 		E562DDE3204E059C00D9BD56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562DDE2204E059C00D9BD56 /* ViewController.swift */; };
 		E562DDE6204E059C00D9BD56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E562DDE4204E059C00D9BD56 /* Main.storyboard */; };
@@ -21,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E52BC5742051227D005F1448 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../.Trash/Info.plist; sourceTree = "<group>"; };
+		E52469D72062CF8700ED3799 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E562DDDD204E059C00D9BD56 /* WheelControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheelControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E562DDE0204E059C00D9BD56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E562DDE2204E059C00D9BD56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +51,7 @@
 			children = (
 				E562DDDF204E059C00D9BD56 /* WheelControl */,
 				E562DDE7204E059C00D9BD56 /* Assets.xcassets */,
-				E52BC5742051227D005F1448 /* Info.plist */,
+				E52469D72062CF8700ED3799 /* Info.plist */,
 				E562DDDE204E059C00D9BD56 /* Products */,
 				E562DDF6204E09CD00D9BD56 /* Frameworks */,
 			);
@@ -172,7 +171,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Imrul Kayes";
 				TargetAttributes = {
 					E562DDDC204E059C00D9BD56 = {
@@ -206,7 +205,6 @@
 			files = (
 				E562DDEB204E059C00D9BD56 /* LaunchScreen.storyboard in Resources */,
 				E562DDE8204E059C00D9BD56 /* Assets.xcassets in Resources */,
-				E52BC5752051227D005F1448 /* Info.plist in Resources */,
 				E562DDE6204E059C00D9BD56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +261,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -270,6 +269,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -320,6 +320,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -327,6 +328,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -362,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N29E7P5W3H;
-				INFOPLIST_FILE = "$(SRCROOT)/../../../.Trash/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.binary5.WheelControl;
@@ -378,7 +380,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N29E7P5W3H;
-				INFOPLIST_FILE = "$(SRCROOT)/../../../.Trash/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.binary5.WheelControl;
