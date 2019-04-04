@@ -6,8 +6,8 @@ a Swift version of this useful project for learning purpose.
 # Language Used
 ## Swift
 ```
-Both UIView and UIControl class is extended for reusable wheel seperately. 
-User can use one of them in their project
+Both UIView and UIControl classes are extended for reusable wheel seperately. 
+Users can use one of them in their projects
 ```
 # ScreenShot Of Final Project
 
